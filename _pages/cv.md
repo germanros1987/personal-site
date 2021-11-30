@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-You can find my CV from this [link](cv.pdf).
+You can find my CV from this [link]({{url}}/assets/files/cv.pdf).
