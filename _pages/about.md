@@ -16,8 +16,8 @@ Before joining Intel Labs, I served as a Research Scientist at the Toyota Resear
 
 News
 ------
-* **[2022.02.01]** Looking for [Research Interns](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/AI-Research-intern_JR0204909-1) in the areas of AI, computer graphics, computer vision, 3D geometry, etc., for Spring, and Summer terms.
-* **[2021.11.19]** Looking for [Research Scientists](https://jobs.intel.com/ShowJob/Id/3077630/Research-Scientist-AI-Autonomous-Systems) in the following areas: sim2real, AI for graphics, automatic contents generation, computer graphics, and related areas.
+* **[2022.02.15]** Looking for [Research Scientists](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/AI-Research-Scientist_JR0207134) in the areas of AI, computer graphics, virtual worlds, computer vision, 3D ML, and related areas.
+* **[2022.02.01]** Looking for [Research Interns](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/AI-Research-intern_JR0204909-1) in the areas of AI, computer graphics, virtual worlds, computer vision, 3D ML, etc., for Spring, and Summer terms.
 * **[2021.11.19]** Looking for [ML Software Engineers](https://jobs.intel.com/ShowJob/Id/3077635/AI-Autonomous-systems-Engineer).
 
 Talks
