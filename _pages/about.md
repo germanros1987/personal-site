@@ -9,7 +9,7 @@ redirect_from:
 ---
 {% include base_path %}
 
-I serve as the head of the [Autonomous Agents Lab](/lab/) at [Intel](https://www.intel.com/), in Santa Clara, California. My obsession is to create autonomous systems that can operate in the physical world at scale, showing intelligence, dexterity, and safe behaviors. In order to fulfill this goal, I focus on problems at the intersection of  machine learning, computer vision, computer graphics, simulation for AI, 3D geometry, and autonomous systems. I am a strong open-source advocate, and as part of my research I have led top-tier
+I serve as Director of the [Autonomous Agents Lab](/lab/) at [Intel](https://www.intel.com/), in Santa Clara, California. My obsession is to create autonomous systems that can operate in the physical world at scale, showing intelligence, dexterity, and safe behaviors. In order to fulfill this goal, I focus on problems at the intersection of  machine learning, computer vision, computer graphics, simulation for AI, 3D geometry, and autonomous systems. I am a strong open-source advocate, and as part of my research I have led top-tier
 open-source projects such as the [CARLA Autonomous Driving simulator](https://github.com/carla-simulator/carla), and the [Open3D library](https://github.com/isl-org/Open3D).
 
 Before joining Intel Labs, I served as a Research Scientist at the Toyota Research Institute (TRI), where he conducted research in the area of Simulation for Autonomous Driving, Scene Understanding, and Domain Adaptation, in the context of Autonomous Driving. I obtained his PhD in Computer Science at Autonomous University of Barcelona (2016), and the Computer Vision Center (CVC).
