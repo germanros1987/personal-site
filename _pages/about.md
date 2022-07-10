@@ -24,6 +24,8 @@ News
 
 Talks
 ------
+* **[2022.04.11]** Talk at University of Wisconsin-Madison: “*Simulation for Autonomous Driving*".
+* **[2022.03.22]** Talk at AWS Imagine: "*The future of tech and impact computing showcase*".
 * **[2021.11.10]** Talk at University of Illinois Urbana-Champaign: "*Accomplishments and challenges in Autonomous Systems Simulation*".
 * **[2021.09.22]** Talk at the 9th Machine-Ground Interaction Consortium: "*The CARLA Autonomous Driving Leaderboard*".
 * **[2021.07.02]** Talk at the ETH Robotics Symposium 2021: "*On the importance of building open environments and solutions for Autonomous Driving*".
