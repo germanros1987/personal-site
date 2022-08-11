@@ -16,11 +16,9 @@ Before joining Intel Labs, I served as a Research Scientist at the Toyota Resear
 
 News
 ------
-* **[2022.03.03]** Looking for [Research Interns, Munich (Germany)](https://intel.wd1.myworkdayjobs.com/External/job/Germany-Munich/AI-Research-PhD-intern--f-m-d-_JR0209021) in the areas of AI, computer graphics, virtual worlds, computer vision, 3D ML, etc., for Spring, and Summer terms.
-* **[2022.03.03]** Looking for [Research Scientists, Munich (Germany)](https://intel.wd1.myworkdayjobs.com/External/job/Germany-Munich/AI-Research-Scientist--f-m-d-_JR0209605-1) in the areas of AI, computer graphics, virtual worlds, computer vision, 3D ML, and related areas.
-* **[2022.02.15]** Looking for [Research Scientists, US](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/AI-Research-Scientist_JR0207134) in the areas of AI, computer graphics, virtual worlds, computer vision, 3D ML, and related areas.
-* **[2022.02.01]** Looking for [Research Interns, US](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/AI-Research-intern_JR0204909-1) in the areas of AI, computer graphics, virtual worlds, computer vision, 3D ML, etc., for Spring, and Summer terms.
-* **[2021.11.19]** Looking for [ML Software Engineers, US](https://jobs.intel.com/ShowJob/Id/3077635/AI-Autonomous-systems-Engineer).
+
+* **[2022.08.10]** Looking for [Research Interns, Munich (Germany)](https://intel.wd1.myworkdayjobs.com/External/job/Germany-Munich/AI-Research-PhD-intern--f-m-d-_JR0209021) in the areas of AI for 3D vision, 3D generative models, differentiable rendering, and similar topics, for Fall and Winter terms.
+* **[2022.08.10]** Looking for [Research Interns, US](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/AI-Research-intern_JR0204909-1) in the areas of AI for 3D vision, 3D generative models, differentiable rendering, and similar topics, for Fall and Winter terms.
 
 Talks
 ------
