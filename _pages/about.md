@@ -17,8 +17,8 @@ Before joining Intel Labs, I served as a Research Scientist at the Toyota Resear
 News
 ------
 
-* **[2022.08.10]** Looking for [Research Interns, Munich (Germany)](https://intel.wd1.myworkdayjobs.com/External/job/Germany-Munich/AI-Research-PhD-intern--f-m-d-_JR0209021) in the areas of AI for 3D vision, 3D generative models, differentiable rendering, and similar topics, for Fall and Winter terms.
-* **[2022.08.10]** Looking for [Research Interns, US](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/AI-Research-intern_JR0204909-1) in the areas of AI for 3D vision, 3D generative models, differentiable rendering, and similar topics, for Fall and Winter terms.
+* **[2022.12.01]** Join us on December 3rd at the [Machine Learning for Autonomous Driving Workshop (NeurIPS'22)](https://ml4ad.github.io/)! We will hear from amazing speakers and will present the results of the [CARLA Autonomous Driving Challenge 2022](https://leaderboard.carla.org/leaderboard/).
+
 
 Talks
 ------
