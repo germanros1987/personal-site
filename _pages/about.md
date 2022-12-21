@@ -17,7 +17,9 @@ Before joining Intel Labs, I served as a Research Scientist at the Toyota Resear
 News
 ------
 
-* **[2022.12.01]** Join us on December 3rd at the [Machine Learning for Autonomous Driving Workshop (NeurIPS'22)](https://ml4ad.github.io/)! We will hear from amazing speakers and will present the results of the [CARLA Autonomous Driving Challenge 2022](https://leaderboard.carla.org/leaderboard/).
+* **[2022.12.21]** Looking for [Research Scientist, US](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/AI-Sim-Research-Scientist_JR0238611) in one of the following areas: Simulation for AI, virtual worlds generation, digital twins, AI applied to computer graphics. This is a US position, but there is an option to open an equivalent position in Munich, Germany. Contact me if you are interested.
+* **[2022.12.01]** Our [Machine Learning for Autonomous Driving Workshop (NeurIPS'22)](https://ml4ad.github.io/) was a great success! It was an honor to host such amazing speakers and presenters.
+* **[2022.12.04]** The results of the [CARLA Autonomous Driving Challenge 2022](https://leaderboard.carla.org/leaderboard/) are out! Congratulations to the winning teams!
 
 
 Talks
