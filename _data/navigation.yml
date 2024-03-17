@@ -3,8 +3,5 @@ main:
   - title: "Home"
     url: /about/
 
-  - title: "Lab"
-    url: /lab/
-
   - title: "CV"
     url: /cv/
