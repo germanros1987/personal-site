@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-You can find my CV from this [link]({{site.url}}/files/germanRos_cv2022.pdf).
+You can find my CV from this [link]({{site.url}}/files/germanRos_cv2024.pdf).
