@@ -18,11 +18,15 @@ Before joining Nvidia, I was the director of the Autonomous Agents Lab at [Intel
 News
 ------
 
-* **[2024.03.14]** I will be speaking at Nvidia GTC 2024: [Open-Source Autonomous Vehicle Simulation With CARLA](https://images.nvidia.com/nvimages/gtc/pdf/GTC24_March_Automotive_Brochure.pdf). 
+* **[2024.06.14]** Check out the results of the [CARLA Autonomous Driving Challenge 2024](https://opendrivelab.com/challenge2024/#carla) as part of the Autonomous Grand Challenge @ CVPR 2024 Workshop 
+Foundation Models for Autonomous Systems.
+* **[2024.04.01]** Our Photorealistic [UrbanSyn dataset](https://www.urbansyn.org/) is now available on [Hugging Face](https://huggingface.co/datasets/UrbanSyn/UrbanSyn).
+* **[2024.03.16]** Our new dataset on 3D Object Relighting [is out](https://github.com/isl-org/objects-with-lighting). Check out the paper [here](https://arxiv.org/abs/2401.09126).
 
 
 Recent Talks
 ------
+* **[2024.03.14]** Talk at Nvidia GTC 2024: [Open-Source Autonomous Vehicle Simulation With CARLA](https://images.nvidia.com/nvimages/gtc/pdf/GTC24_March_Automotive_Brochure.pdf). 
 * **[2023.12.10]** Talk at IEEE Standard Association Symposium on Autonomous Driving: "*CARLA: An Open Simulation Framework and Platform for Autonomous Driving*"
 * **[2023.10.01]** Talk at IROS Workshop on Photorealistic Image and Environment Synthesis for Robotics*".
 
