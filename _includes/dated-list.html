@@ -1,0 +1,14 @@
+<ul class="dated-list dated-list--{{ include.kind | escape }}">
+  {%- for item in include.items -%}
+  <li class="dated-list__item">
+    <time class="dated-list__date" datetime="{{ item.date | escape }}">{{ item.date_label | escape }}</time>
+    <div class="dated-list__content">
+      {%- if item.title -%}
+      <p class="dated-list__title">{%- if item.url -%}<a href="{{ item.url | escape }}">{{ item.title | escape }}</a>{%- else -%}{{ item.title | escape }}{%- endif -%}</p>
+      {%- endif -%}
+      {%- if item.venue -%}<p class="dated-list__venue">{{ item.venue | escape }}</p>{%- endif -%}
+      {%- if item.text -%}{{ item.text | markdownify }}{%- endif -%}
+    </div>
+  </li>
+  {%- endfor -%}
+</ul>

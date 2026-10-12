@@ -1,36 +1,108 @@
-.scholar-publications {
-  margin-bottom: 2em;
+.page__content .scholar-publications {
+  margin-bottom: 1.5em;
 
   &__intro {
-    color: $gray;
-    font-size: 0.9em;
+    margin-bottom: 0.4em;
+    color: $dark-gray;
+    font-size: 0.75em;
   }
 
   &__list {
     list-style: none;
     padding-left: 0;
+    margin: 0 0 0.75em;
   }
 
   &__item {
-    padding: 1em 0;
+    display: grid;
+    grid-template-columns: 3em minmax(0, 1fr);
+    gap: 0.75em;
+    align-items: start;
+    padding: 0.5em 0;
     border-bottom: 1px solid $border-color;
 
     h3 {
-      margin: 0 0 0.35em;
-      font-size: 1em;
-      line-height: 1.5;
+      margin: 0 0 0.15em;
+      font-size: 0.85em;
+      font-weight: 600;
+      line-height: 1.4;
+
+      a {
+        text-decoration: none;
+
+        &:hover,
+        &:focus-visible {
+          text-decoration: underline;
+        }
+      }
     }
 
     p {
       margin: 0.2em 0;
-      font-size: 0.8em;
-      line-height: 1.5;
+      font-size: 0.72em;
+      line-height: 1.4;
+    }
+  }
+
+  &__year {
+    margin-top: 0.1em;
+    padding: 0.2em 0.35em;
+    border-radius: 3px;
+    background: $code-background-color;
+    color: $dark-gray;
+    font-size: 0.72em;
+    font-variant-numeric: tabular-nums;
+    text-align: center;
+
+    &:empty {
+      visibility: hidden;
+    }
+  }
+
+  &__metadata {
+    font-size: 0.72em;
+    color: $dark-gray;
+
+    summary {
+      display: flex;
+      align-items: baseline;
+      gap: 0.4em;
+      cursor: pointer;
+      list-style: none;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &::before {
+        content: "›";
+        flex: none;
+        font-weight: bold;
+      }
+
+      span {
+        min-width: 0;
+        overflow-wrap: anywhere;
+      }
+
+      &:hover {
+        color: $text-color;
+      }
+    }
+
+    &[open] summary::before {
+      transform: rotate(90deg);
+    }
+
+    .scholar-publications__authors {
+      margin: 0.4em 0 0.1em 0.8em;
+      font-size: 1em;
     }
   }
 
   &__details,
   &__updated {
-    color: $gray;
+    color: $dark-gray;
   }
 
   &__footer {
@@ -38,6 +110,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 0.5em 1em;
-    font-size: 0.8em;
+    font-size: 0.72em;
   }
 }

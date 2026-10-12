@@ -1,0 +1,67 @@
+.page__content .dated-list {
+  margin: 0 0 1.5em;
+  padding: 0;
+  list-style: none;
+
+  &__item {
+    display: grid;
+    grid-template-columns: 7.5em minmax(0, 1fr);
+    gap: 1em;
+    align-items: start;
+    padding: 0.7em 0;
+    border-bottom: 1px solid $border-color;
+  }
+
+  &__date {
+    display: block;
+    margin-top: 0.1em;
+    padding: 0.25em 0.5em;
+    border-radius: 3px;
+    background: $code-background-color;
+    color: $dark-gray;
+    font-size: 0.72em;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  &__content {
+    font-size: 0.9em;
+    line-height: 1.5;
+
+    p {
+      margin: 0;
+    }
+
+    .dated-list__title {
+      font-weight: 600;
+    }
+
+    .dated-list__venue {
+      margin-top: 0.25em;
+      color: $dark-gray;
+      font-size: 0.85em;
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover,
+      &:focus-visible {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    &__item {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0.4em;
+    }
+
+    &__date {
+      justify-self: start;
+    }
+  }
+}

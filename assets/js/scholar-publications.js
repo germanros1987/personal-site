@@ -16,18 +16,25 @@
       throw new Error("Invalid publication");
     }
     var item = textElement("li", "scholar-publications__item", "");
+    item.appendChild(textElement("span", "scholar-publications__year", publication.year || ""));
+    var body = textElement("div", "scholar-publications__body", "");
     var heading = document.createElement("h3");
     var link = textElement("a", "", publication.title);
     link.href = url.href;
     heading.appendChild(link);
-    item.appendChild(heading);
+    body.appendChild(heading);
     if (publication.authors) {
-      item.appendChild(textElement("p", "scholar-publications__authors", publication.authors));
+      var metadata = textElement("details", "scholar-publications__metadata", "");
+      var summary = document.createElement("summary");
+      summary.title = "Show authors";
+      summary.appendChild(textElement("span", "", publication.venue || "Publication details"));
+      metadata.appendChild(summary);
+      metadata.appendChild(textElement("p", "scholar-publications__authors", publication.authors));
+      body.appendChild(metadata);
+    } else if (publication.venue) {
+      body.appendChild(textElement("p", "scholar-publications__details", publication.venue));
     }
-    var details = [publication.venue, publication.year].filter(Boolean).join(" · ");
-    if (details) {
-      item.appendChild(textElement("p", "scholar-publications__details", details));
-    }
+    item.appendChild(body);
     return item;
   }
 

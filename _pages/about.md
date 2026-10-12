@@ -18,21 +18,12 @@ Before joining NVIDIA, I directed the Autonomous Agents Lab at [Intel Labs](http
 News
 ------
 
-* **[2024.06.14]** Check out the results of the [CARLA Autonomous Driving Challenge 2024](https://opendrivelab.com/challenge2024/#carla) as part of the Autonomous Grand Challenge @ CVPR 2024 Workshop 
-Foundation Models for Autonomous Systems.
-* **[2024.04.01]** Our Photorealistic [UrbanSyn dataset](https://www.urbansyn.org/) is now available on [Hugging Face](https://huggingface.co/datasets/UrbanSyn/UrbanSyn).
-* **[2024.03.16]** Our new dataset on 3D Object Relighting [is out](https://github.com/isl-org/objects-with-lighting). Check out the paper [here](https://arxiv.org/abs/2401.09126).
+{% include dated-list.html items=site.data.updates.news kind="news" %}
 
 
 Recent Talks
 ------
-* **[2026.09]** Talk at the ELLIS Summer School on Autonomous Driving, Barcelona, Spain: "*Synthetic Data Workflows to Accelerate AV: A CARLA Perspective*"
-* **[2026.09]** Talk at the Artificial Intelligence and Cybersecurity Summit, Murcia, Spain: "*Modern Development of Autonomous Vehicles*"
-* **[2026.05]** Talk in Jaén, Spain: "*The Evolution of Physical AI: End-to-End and the Technologies That Drive the Change*"
-* **[2025.06]** Talk at IAA Mobility Munich (NVIDIA Halos Day), Munich, Germany: "*Safety and Open-Source in AV*"
-* **[2024.03.14]** Talk at Nvidia GTC 2024: [Open-Source Autonomous Vehicle Simulation With CARLA](https://images.nvidia.com/nvimages/gtc/pdf/GTC24_March_Automotive_Brochure.pdf). 
-* **[2023.12.10]** Talk at IEEE Standard Association Symposium on Autonomous Driving: "*CARLA: An Open Simulation Framework and Platform for Autonomous Driving*"
-* **[2023.10.01]** Talk at IROS Workshop on Photorealistic Image and Environment Synthesis for Robotics*".
+{% include dated-list.html items=site.data.updates.talks kind="talks" %}
 
 
 Publications
