@@ -1,5 +1,76 @@
 {
   "profile_url": "https://scholar.google.co.jp/citations?user=uDFb6OcAAAAJ&hl=en&sortby=pubdate",
-  "updated_at": null,
-  "publications": []
+  "updated_at": "2026-10-12T15:39:38+00:00",
+  "publications": [
+    {
+      "title": "SPEAR: A simulator for photorealistic embodied ai research",
+      "url": "https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=uDFb6OcAAAAJ&sortby=pubdate&citation_for_view=uDFb6OcAAAAJ:2P1L_qKh6hAC",
+      "authors": "M Roberts, R Wang, R Zawar, R Dey-Prakash, Q Leboutet, SR Richter, ...",
+      "venue": "European Conference on Computer Vision, 77-96, 2026",
+      "year": "2026"
+    },
+    {
+      "title": "CASCADE: A Spatio-Temporal-Causal Reasoning Representation and Dataset for Driving",
+      "url": "https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=uDFb6OcAAAAJ&sortby=pubdate&citation_for_view=uDFb6OcAAAAJ:g5m5HwL7SMYC",
+      "authors": "J Schmalfuss, D Paschalidou, S Gerstenecker, G Ros, JM Alvarez",
+      "venue": "arXiv preprint arXiv:2609.07094, 2026",
+      "year": "2026"
+    },
+    {
+      "title": "All for one, and one for all: Urbansyn dataset, the third musketeer of synthetic driving scenes",
+      "url": "https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=uDFb6OcAAAAJ&sortby=pubdate&citation_for_view=uDFb6OcAAAAJ:GnPB-g6toBAC",
+      "authors": "JL Gómez, M Silva, A Seoane, A Borrás, M Noriega, G Ros, ...",
+      "venue": "Neurocomputing 637, 130038, 2025",
+      "year": "2025"
+    },
+    {
+      "title": "Robot simulator with efficient contact wrench estimation",
+      "url": "https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=uDFb6OcAAAAJ&sortby=pubdate&citation_for_view=uDFb6OcAAAAJ:lSLTfruPkqcC",
+      "authors": "GRS Samarth Manoj Brahmbhatt",
+      "venue": "US Patent US20250178198A1, 2025",
+      "year": "2025"
+    },
+    {
+      "title": "All for one, and one for all: UrbanSyn Dataset, the third Musketeer of synthetic driving scenes",
+      "url": "https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=uDFb6OcAAAAJ&sortby=pubdate&citation_for_view=uDFb6OcAAAAJ:35N4QoGY0k4C",
+      "authors": "JL Gómez Zurita, M Silva, A Seoane, A Borràs, MA Noriega, G Ros, ...",
+      "venue": "Elsevier, 2025",
+      "year": "2025"
+    },
+    {
+      "title": "AeroSim: An Open Simulator for Aerospace Engineering and Physical AI Research",
+      "url": "https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=uDFb6OcAAAAJ&sortby=pubdate&citation_for_view=uDFb6OcAAAAJ:70eg2SAEIzsC",
+      "authors": "F Khan, P Palanisamy, E Dufford, G Ros, H Park",
+      "venue": "AIAA AVIATION FORUM AND ASCEND 2025, 3596, 2025",
+      "year": "2025"
+    },
+    {
+      "title": "Generating Physically Realistic and Directable Human Motions from Multi-Modal Inputs",
+      "url": "https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=uDFb6OcAAAAJ&sortby=pubdate&citation_for_view=uDFb6OcAAAAJ:O3NaXMp0MMsC",
+      "authors": "A Shrestha, P Liu, G Ros, K Yuan, A Fern",
+      "venue": "ECCV, 2024",
+      "year": "2024"
+    },
+    {
+      "title": "Objects with lighting: A real-world dataset for evaluating reconstruction and rendering for object relighting",
+      "url": "https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=uDFb6OcAAAAJ&sortby=pubdate&citation_for_view=uDFb6OcAAAAJ:BqipwSGYUEgC",
+      "authors": "B Ummenhofer, S Agrawal, R Sepulveda, Y Lao, K Zhang, T Cheng, ...",
+      "venue": "2024 International Conference on 3D Vision (3DV), 137-147, 2024",
+      "year": "2024"
+    },
+    {
+      "title": "Inferring locations of 3D objects in a spatial environment",
+      "url": "https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=uDFb6OcAAAAJ&sortby=pubdate&citation_for_view=uDFb6OcAAAAJ:maZDTaKrznsC",
+      "authors": "W Kehl, GROS SANCHEZ",
+      "venue": "US Patent 11,276,230, 2022",
+      "year": "2022"
+    },
+    {
+      "title": "InteriorSim: A Photorealistic Simulator for Embodied AI",
+      "url": "https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=uDFb6OcAAAAJ&sortby=pubdate&citation_for_view=uDFb6OcAAAAJ:YFjsv_pBGBYC",
+      "authors": "M Roberts, Q Leboutet, R Prakash, R Wang, H Zhang, R Tang, M Ferragut, ...",
+      "venue": "arXiv, 2022",
+      "year": "2022"
+    }
+  ]
 }
