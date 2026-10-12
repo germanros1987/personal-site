@@ -1,0 +1,43 @@
+.scholar-publications {
+  margin-bottom: 2em;
+
+  &__intro {
+    color: $gray;
+    font-size: 0.9em;
+  }
+
+  &__list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  &__item {
+    padding: 1em 0;
+    border-bottom: 1px solid $border-color;
+
+    h3 {
+      margin: 0 0 0.35em;
+      font-size: 1em;
+      line-height: 1.5;
+    }
+
+    p {
+      margin: 0.2em 0;
+      font-size: 0.8em;
+      line-height: 1.5;
+    }
+  }
+
+  &__details,
+  &__updated {
+    color: $gray;
+  }
+
+  &__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5em 1em;
+    font-size: 0.8em;
+  }
+}

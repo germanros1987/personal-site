@@ -20,6 +20,7 @@ words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
+scholar_data_url         : "https://raw.githubusercontent.com/germanros1987/personal-site/main/_data/scholar_publications.json"
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -81,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "German Ros"
-  avatar           : "profile.jpg"
+  avatar           : "german_ros_2026.png"
   bio              : "Director, Simulation Ecosystem Dev @ Nvidia."
   location         : "Santa Clara, CA"
   employer         : "Nvidia"
@@ -123,6 +124,8 @@ include:
   - _pages
   - files
 exclude:
+  - scripts
+  - tests
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

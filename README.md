@@ -16,6 +16,20 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 
 See more info at https://academicpages.github.io/
 
+## Google Scholar publications
+
+The homepage and publications page show the ten latest entries from German Ros' Scholar profile, sorted by publication date. `scripts/update_scholar.py` fetches the profile and saves `_data/scholar_publications.json`. Run it with Python 3:
+
+```sh
+python3 scripts/update_scholar.py
+```
+
+The `Refresh Scholar publications` GitHub Actions workflow runs daily at 06:23 UTC and can also be run manually. It starts automatically when its files are pushed to `main`. GitHub Actions must be enabled and the branch must allow the workflow's token to push cache updates. The widget fetches the cache directly from the repository, so scheduled updates appear without another Pages build. Jekyll also renders the cached publications for visitors without JavaScript.
+
+Google Scholar can reject automated requests with HTTP 429 or a CAPTCHA. Failed refreshes leave the last successful cache untouched; the workflow reports a failure and tries again the next day. Before the first successful refresh, the widget shows a link to the full Scholar profile. To populate the cache from a browser export instead, save the profile's HTML with `sortby=pubdate` and run `python3 scripts/update_scholar.py --html /path/to/profile.html`. Do not import unsorted profile HTML.
+
+Run the refresh tests with `python3 -m unittest discover -s tests -p 'test_scholar.py'`.
+
 ## To run locally (not on GitHub Pages, to serve on your own computer)
 
 1. Clone the repository and made updates as detailed above

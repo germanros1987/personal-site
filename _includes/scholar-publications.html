@@ -1,0 +1,19 @@
+{% assign scholar = site.data.scholar_publications %}
+<section class="scholar-publications" aria-label="Latest publications" data-scholar-widget data-source="{{ site.scholar_data_url | escape }}">
+  <p class="scholar-publications__intro">Latest publications from Google Scholar</p>
+  <ol class="scholar-publications__list" data-scholar-list>
+    {% for publication in scholar.publications limit:10 %}
+    <li class="scholar-publications__item">
+      <h3><a href="{{ publication.url | escape }}">{{ publication.title | escape }}</a></h3>
+      {% if publication.authors != empty %}<p class="scholar-publications__authors">{{ publication.authors | escape }}</p>{% endif %}
+      <p class="scholar-publications__details">{{ publication.venue | escape }}{% if publication.venue != empty and publication.year != empty %} · {% endif %}{{ publication.year | escape }}</p>
+    </li>
+    {% endfor %}
+  </ol>
+  <p class="scholar-publications__status" data-scholar-status role="status"{% if scholar.publications.size > 0 %} hidden{% endif %}>Recent publications are temporarily unavailable.</p>
+  <div class="scholar-publications__footer">
+    <a href="{{ scholar.profile_url | escape }}">View all publications on Google Scholar &rarr;</a>
+    <span class="scholar-publications__updated" data-scholar-updated>{% if scholar.updated_at %}Updated {{ scholar.updated_at | date: "%B %-d, %Y" }}{% endif %}</span>
+  </div>
+</section>
+<script src="{{ '/assets/js/scholar-publications.js' | relative_url }}" defer></script>

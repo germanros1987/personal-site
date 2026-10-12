@@ -26,6 +26,10 @@ Foundation Models for Autonomous Systems.
 
 Recent Talks
 ------
+* **[2026.09]** Talk at the ELLIS Summer School on Autonomous Driving, Barcelona, Spain: "*Synthetic Data Workflows to Accelerate AV: A CARLA Perspective*"
+* **[2026.09]** Talk at the Artificial Intelligence and Cybersecurity Summit, Murcia, Spain: "*Modern Development of Autonomous Vehicles*"
+* **[2026.05]** Talk in Jaén, Spain: "*The Evolution of Physical AI: End-to-End and the Technologies That Drive the Change*"
+* **[2025.06]** Talk at IAA Mobility Munich (NVIDIA Halos Day), Munich, Germany: "*Safety and Open-Source in AV*"
 * **[2024.03.14]** Talk at Nvidia GTC 2024: [Open-Source Autonomous Vehicle Simulation With CARLA](https://images.nvidia.com/nvimages/gtc/pdf/GTC24_March_Automotive_Brochure.pdf). 
 * **[2023.12.10]** Talk at IEEE Standard Association Symposium on Autonomous Driving: "*CARLA: An Open Simulation Framework and Platform for Autonomous Driving*"
 * **[2023.10.01]** Talk at IROS Workshop on Photorealistic Image and Environment Synthesis for Robotics*".
@@ -34,4 +38,4 @@ Recent Talks
 Publications
 ------
 
-You can find my articles on my Google Scholar [profile](https://scholar.google.com/citations?user=uDFb6OcAAAAJ).
+{% include scholar-publications.html %}
