@@ -1,7 +1,11 @@
 <ul class="dated-list dated-list--{{ include.kind | escape }}">
   {%- for item in include.items -%}
   <li class="dated-list__item">
+    {%- if item.date -%}
     <time class="dated-list__date" datetime="{{ item.date | escape }}">{{ item.date_label | escape }}</time>
+    {%- else -%}
+    <span class="dated-list__date">{{ item.date_label | escape }}</span>
+    {%- endif -%}
     <div class="dated-list__content">
       {%- if item.title -%}
       <p class="dated-list__title">{%- if item.url -%}<a href="{{ item.url | escape }}">{{ item.title | escape }}</a>{%- else -%}{{ item.title | escape }}{%- endif -%}</p>

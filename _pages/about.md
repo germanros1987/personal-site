@@ -26,6 +26,14 @@ Recent Talks
 {% include dated-list.html items=site.data.updates.talks kind="talks" %}
 
 
+Academic Service
+------
+
+Chair and organizer of international workshops and challenges.
+
+{% include dated-list.html items=site.data.academic_service kind="service" %}
+
+
 Publications
 ------
 

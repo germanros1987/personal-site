@@ -1,0 +1,45 @@
+- date_label: "2026"
+  title: "AV Causal Scenario Retrieval Challenge"
+  url: "https://huggingface.co/spaces/nvidia/AV-Causal-Scenario-Retrieval-Challenge"
+  venue: "NeurIPS 2026 · World Models in Physical AI · Sydney, Australia"
+
+- date_label: "2026"
+  title: "World Models in Physical AI"
+  url: "https://www.worldmodels-physicalai.com/"
+  venue: "NeurIPS 2026 · Sydney, Australia"
+
+- date_label: "2020–2026"
+  title: "Embodied AI Workshop"
+  url: "https://embodied-ai.org/"
+  venue: "CVPR · Annual editions, 2020–2026"
+
+- date_label: "2024"
+  title: "Autonomous Grand Challenge"
+  url: "https://opendrivelab.com/challenge2024/"
+  venue: "CVPR 2024 · Foundation Models for Autonomous Systems workshop"
+
+- date_label: "2024"
+  title: "Foundation Models for Autonomous Systems"
+  url: "https://opendrivelab.com/cvpr2024/workshop/"
+  venue: "CVPR 2024"
+
+- date_label: "2020–2023"
+  title: "Machine Learning for Autonomous Driving (ML4AD)"
+  url: "https://ml4ad.github.io/2023/"
+  venue: "Co-located with NeurIPS · Annual editions, 2020–2023"
+
+- date_label: "2019"
+  title: "Computer Graphics for Autonomous Vehicles"
+  url: "https://s2019.siggraph.org/conference/programs-events/organization-events/frontiers-workshops/computer-graphics-for-autonomous-vehicles/"
+  venue: "ACM SIGGRAPH 2019"
+
+- date_label: "2019"
+  title: "CARLA Autonomous Driving Challenge"
+  url: "https://leaderboard.carla.org/previous_challenges/"
+  venue: "CVPR 2019"
+
+- date_label: "2016"
+  title: "Virtual/Augmented Reality for Visual Artificial Intelligence (VARVAI)"
+  venue: "ECCV 2016 · Amsterdam, Netherlands"
+  # Historical workshop and co-chair record; the original workshop site is unavailable.
+  source_url: "https://www.cvc.uab.es/wp-content/uploads/2022/06/Memoria_recerca2016-1.pdf"
